@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>문자 객체</title>
+        <meta charset="UTF-8">
+        <script>
+            // window.open("내용 정보","창이름","옵션");
+            // window.open("E-MAIL.html","","width=300,height=300,top=300,left=400,location=no");
+            // alert("Hello");
+            // confirm("World");
+
+            // var addNum = 0;
+            // var subNum = 1000;
+
+            // var auto1 = setInterval("함수","시간")
+            // var auto1 = setInterval(function(){
+            //     addNum++;
+            //     console.log("addNum : "+addNum);
+            // },3000);
+
+            // var auto2 = setInterval(function(){
+            //     subNum--;
+            //     console.log("subNum : "+subNum);
+            // },3000)
+
+            
+            // var time1 = setInterval(function(){
+            //     var today = new Date();
+            //     var h = today.getHours();
+            //     var m = today.getMinutes();
+            //     var s = today.getSeconds();
+            //     document.write(h+"시 "+m+"분 "+s+"초");
+
+            // },1000);
+            
+            
+            // var addNum = 0;
+            // var auto1 = setTimeout(function(){
+            //     addNum++;
+            //     console.log("addNum : "+addNum);
+            // },3000);
+            // location.reload();
+            // location.href="http://www.naver.com";
+
+            var phon = "010-2345-1234"
+            var result1 = phon.substring(phon.length - 4,0);
+            document.write(result1,"****<br>");
+            // var result1 = phon.replace((phon.split("-"))[2],"****");
+            // document.write(result1+"<BR>");
+            var img = "images/bnt_out.jpg";
+            var result2=img.replace("out","over");
+            document.write(result2);
+        </script>
+    </head>
+    <body>
+        <!-- <button onclick="clearInterval(auto1)">증가 정지</button>
+        <button onclick="clearInterval(auto2)">감소 정지</button> -->
+        <!-- <button onclick="clearTimeout(auto1)">감소 정지</button> -->
+        
+        
+
+    </body>
+</html>

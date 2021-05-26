@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Script</title>
+        <meta charset="UTF-8">
+        <!-- <script>
+            alert("안녕하세요")
+        </script> -->
+
+        <!-- <script src="script(JS)/Script.js"></script> -->
+            <script>
+                // var x;//변수선언
+                // x = 10;//변수 값 대입(초기화)
+                // document.write(x+"<BR><hr>");
+                // // console.log(x);
+                // x = 20;
+                // document.write(x+"<BR><hr>");
+                
+                    // var x,y,z;
+                // x = 10;
+                // y = 20;
+                // z = 30;
+                // document.write(x+y+"<br>");
+
+                // var x = 10, y = 20, z = 30;
+                // document.write(x+"<hr>");
+                // document.write(y+"<hr>");
+                // document.write(z+"<hr>");
+                // document.write(x+" "+y+" "+z+"<hr>");
+                // document.write("x = "+x+" y = "+y+" z = "+z+"<hr");/
+                
+                //문자 , 숫자 , 논리값 , 객체
+                // var s;
+                // s=10;
+                // s="hello";
+                // s=true;
+                // var x;
+                // document.write(x);
+                // //연산자
+                // var x,y;
+                // x=10;
+                // y=20;
+                // document.write(x+y+"<br>");
+                // document.write(x-y+"<br>");
+                // document.write(x*y+"<br>");
+                // document.write(x/y+"<br>");
+                // document.write(x%y+"<br>");
+                
+                // x="학교종이"
+                // y="땡땡땡";
+                // document.write(x+y+"<br>");
+                
+                //대입연산자
+                // =, +=, -=, *=, /=.....
+                // var x = 10;
+                // x += 20;// x = x+20;
+                // document.write(x);
+
+                // //table
+                // var table = "<table border='1'>";
+                // table += "<tr>";
+                // table += "<td>1</td><td>2</td><td>3</td>";
+                // table +="</tr>";
+                // table +="</table>";
+                
+                // document.write(table);
+
+                //증감연산자
+                // ++, --
+                // var x = 10;
+                // document.write(x + "<hr>");
+                // x++;
+                // document.write(x+"<hr>");
+                // ++x;
+                // document.write(x+"<hr>");
+                
+                // var y=0;
+                // var x=0;
+                // y = ++x + 1;
+                // document.write(y+"<br>");
+                // x=0;
+                // y = x++ + 1;
+                // document.write(y);
+
+                //비교연산자
+                //>,<,>=,<=,==,!=
+                // var x,y;
+                // x=10;
+                // y=20;
+                // document.write((x>y)+"<hr>");
+                // document.write((x==y)+"<hr>");
+                // document.write((x!=y)+"<hr>");
+                // if(x=y){
+                //     document.write("다르지롱");
+                // }
+                //논리연산자
+                //&&, || ,!
+
+                // true && true; // true
+                // true && false; // false
+                // false && true; // false
+                // false && false; // false
+                
+                // true || true; // true
+                // true || false; // true
+                // false || true; // true
+                // false || false; // false
+
+                // !true; //false
+                // !false;//true
+
+                // var x = 10;
+                // var y = 20;
+                // var z = 30;
+                // document.write(x == 10 && y==20 && z == 30);
+                // document.write(!(x == 10 && y==20 && z == 30));
+                // document.write("<hr>");
+                // document.write( x != 10 && y==20);
+                // document.write("<hr>");
+                // document.write(x == 10 || y != 20);
+                // document.write("<hr>");
+
+                //범위 설정
+                // 1 <= x <= 10
+                // var x = 10;
+                // document.write(x >= 1 && x <= 10);
+                 
+                // var y = 100;
+                // document.write(y < 1 || y > 10);
+
+                //삼향연산자
+                //조건식(true/false) ? 결과값1 : 결과값2
+                // var x = 10;
+                // var y = 20;
+
+                // var result = x > y ? x : y;
+                // document.write(result);
+
+                //국어, 영어, 수학
+                //과목별 점수가 70이상이면 합격 아니면 불합격
+                // var korean, eng, math;
+                // korean = 75;
+                // eng = 80;
+                // math = 93;
+                // var result = (korean >=70 && eng >=70 && math >=70)? "합격" : "불합격";
+
+                // document.write((korean >=70 && eng >=70 && math >=70)? "합격" : "불합격");
+                // document.write(result);
+
+                //제어문
+                //if문 swich문
+                
+                // var age = 8;
+                // if(age==8){
+                //     document.write("학교에 입학을 축하드립니다.");
+                // }
+                // document.write("The End");
+                // var korean, eng, math;
+                // korean = 75;
+                // eng = 80;
+                // math = 93;
+                // var result = (korean >=70 && eng >=70 && math >=70)? "합격" : "불합격";
+                // if(korean>=70){
+                //     if(eng>=70){
+                //         if(math>=70){
+                //             document.write("합격");
+                //         }
+                //         else{
+                //             document.write("불합격");
+                //         }
+                        
+                //     }else{
+                //         document.write("불합격");
+                //     }
+                // }else{
+                //     document.write("불합격");
+                // }
+                
+                // var month = 15;
+                
+                // if( month>=3 && month <=5){
+                //     document.write("햇살 가득한 봄");
+                // }else if( month>=6 && month <=8){
+                //     document.write("더운 여름");
+                // }
+                // else if( month>=9 && month <=11){
+                //     document.write("시원한 가을");
+                // }else if( month == 12 || month==2 || month == 1){
+                //     document.write("추운 겨울");
+                // }else{
+                //     document.write("있는 달이 아닙니다.");
+                // }
+
+                // var x , y , z;
+                // x = 2, y = 3, z = 6;
+                // if(z % x == 0){
+                //     if(z % y == 0){
+                //         document.write(z + "은" + x + "와" + y +"의 공배수입니다.");
+                //     }else{
+                //         document.write("공배수가 아닙니다.");
+                //     }
+                // }
+                // var x , y , z;
+                // x = 2, y = 3, z = 6;
+                // if(z % x == 0 && z % y == 0){
+                //     document.write(z + "은" + x + "와" + y +"의 공배수입니다.");
+                // }else{
+                //     document.write("공배수가 아닙니다.");
+                // }
+
+                // var id = "aaa1004";
+                // var pass = "1234";
+                
+                // var user_id = prompt("아이디입력","");
+                // var user_pass = prompt("패스워드 입력","");
+
+                // if(id==user_id){
+                //     if(pass==user_pass){
+                //         document.write(user_id+"님 환영합니다.");
+                        
+                //     }else{
+                //         alert("비밀번호 불일치");
+                //          location.reload();
+                //     }
+
+                // }else{
+                //     alert("아이디 불일치");
+                //     location.reload();
+                // }
+
+                //switch 문
+                // switch(값){
+                //     case 비교값1: 실행문;
+                //     break;
+                //     case 비교값1: 실행문;
+                //     break;
+                //     case 비교값1: 실행문;
+                //     break;
+                //     case 비교값1: 실행문;
+                //     break;
+                //     case 비교값1: 실행문;
+                //     break;
+                //     default: 실행문;
+                // }
+
+                // var choise = prompt("번호입력","");
+                //  switch(choise){
+                //      case "1": document.write("1번선택");
+                //      brake;
+                //      case "2": document.write("2번선택");
+                //      brake;
+                //      case "3": document.write("3번선택");
+                //      brake;
+                //      case "4": document.write("4번선택");
+                //      brake;
+                //      default: document.write("잘못된 번호 입니다.");
+                //  }
+                //  case "1": case "2": case "3":
+                
+                // var choise = prompt("원하는 음료의 번호를 선택하세요.\n1.콜라 2.사이다 3.환타 4.밀키스","");
+                // switch(choise){
+                //     case "1": document.write("콜라가 나왔습니다.");
+                //     break;
+                //     case "2": document.write("사이다가 나왔습니다.");
+                //     break;
+                //     case "3": document.write("환타가 나왔습니다.");
+                //     break;
+                //     case "4": document.write("밀키스가 나왔습니다.");
+                //     break;
+                //     default: document.write("잘못된 번호입니다.");
+                    
+                // }
+                // var num = parseInt(prompt("",""));
+                // var choise = prompt("원하는 음료의 번호를 선택하세요.\n1.콜라 2.사이다 3.환타 4.밀키스","");
+                // if(choise=="1"){
+                //     document.write("콜라가 나왔습니다.");
+                // }
+                // else if(choise=="2"){
+                //     document.write("사이다가 나왔습니다.");
+                // }
+                // else if(choise=="3"){
+                //     document.write("환타가 나왔습니다.");
+                // }
+                // else if(choise=="4"){
+                //     document.write("밀키스가 나왔습니다.");
+                // }else{
+                //     document.write("잘못된번호입니다.")
+                // }
+            
+            //반복문
+            //for while , do~ while
+            // for(var i = 0; i < 10; i++){
+            //     document.write(i+"<br>");
+            // }
+            
+            // for(var i = 1; i <= 10; i++){
+            //     if(i%2==0){
+            //         document.write(i+" 짝수입니다.<br>");
+            //     }else{
+            //         document.write(i+" 홀수입니다.<br>");
+            //     }
+            // }
+            // var sum=0;
+            // for (var i=1; i<=10; i++){ 
+            //     sum += i;
+            // }
+            // document.write(sum);
+            // i +=2증감식가능
+            // var n1 = 0,n2 = 0;
+            // for(var i = 1; i <= 10; i++){
+            //     if(i%2==0){
+            //         n2 += i;
+            //     }else{
+            //         n1 += i;
+            //     }
+            // }
+            // document.write("짝수의 값은: "+n2);
+            // document.write("홀수의 값은: "+n1);
+            var choose = prompt("단을 입력하세요","");
+            var sum=0;
+            switch(choose){
+                case "1": for(var i=1; i<10;i++){
+                    sum =i*choose;
+                    document.write(choose+"x"+i+"="+sum+"<BR>");
+                }
+                break;
+                case "2": for(var i=1; i<10;i++){
+                    sum =i*choose;
+                    document.write(choose+"x"+i+"="+sum+"<BR>");
+                }
+                break;
+                case "3": for(var i=1; i<10;i++){
+                    sum =i*choose;
+                    document.write(choose+"x"+i+"="+sum+"<BR>");
+                }
+                break;
+                case "4": for(var i=1; i<10;i++){
+                    sum =i*choose;
+                    document.write(choose+"x"+i+"="+sum+"<BR>");
+                }
+                break;
+                case "5": for(var i=1; i<10;i++){
+                    sum =i*choose;
+                    document.write(choose+"x"+i+"="+sum+"<BR>");
+                }
+                break;
+                case "6": for(var i=1; i<10;i++){
+                    sum =i*choose;
+                    document.write(choose+"x"+i+"="+sum+"<BR>");
+                }
+                break;
+                case "7": for(var i=1; i<10;i++){
+                    sum =i*choose;
+                    document.write(choose+"x"+i+"="+sum+"<BR>");
+                }
+                break;
+                case "8": for(var i=1; i<10;i++){
+                    sum =i*choose;
+                    document.write(choose+"x"+i+"="+sum+"<BR>");
+                }
+                break;
+                case "9": for(var i=1; i<10;i++){
+                    sum =i*choose;
+                    document.write(choose+"x"+i+"="+sum+"<BR>");
+                }
+                break;
+                default:location.reload();
+
+            }
+
+            // var choose=prompt("단을 입력하세요","");
+            // for(var i=1; i<10; i++){
+            //     document.write(choose+"x"+i+"="+(choose*i)+"<br>");
+            // }
+            
+        
+ 
+
+
+            </script>
+    <body>
+        <!-- <button value="클릭">클릭</button> -->
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>문자 객체</title>
+        <meta charset="UTF-8">
+        <script>
+            // function add(){
+            //     document.write(2+3);
+            // }
+
+            // function add2(x,y){
+            //     document.write(x+y);
+                
+            // }
+            // function add3(x,y){
+            //     var sum = x + y;
+            //     return document.write(sum);
+            // }
+
+            // add3(1,2);
+
+            // add();
+
+            // add2(10,20);
+            var color = ["red","blue","orange","green","gray","aqua"];
+            var i = 0;
+
+            function ChangeColor(){
+                i++;
+                if(i>=color.length)
+                {
+                    i = 0;
+                }
+                var body = document.getElementById("theBody");
+                body.style.backgroundColor = color[i];
+                
+            }
+
+
+            
+        </script>
+    </head>
+    <body id="theBody">
+        <button onclick="ChangeColor();">색 바꿈</button>
+
+
+    </body>
+</html>

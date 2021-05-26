@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title> 이벤트 </title>
+<script type="text/javascript">
+//<![CDATA[
+function chColor(obj,state,color){
+  var myColor = this.color;
+  if(state=="over"){
+    myColor = this.myColor;
+    console.log("red");
+  }else{
+    myColor = this.myColor;
+    console.log("blue");
+  }
+  obj.style.color = myColor;
+}
+//]]>
+</script>
+</head>
+<body>
+  <button onmouseover="chColor(this,'over','red')" onmouseout="chColor(this,'out','blue')">마우스 아웃</button>
+  <!-- 이벤트에서의 this는 이벤트를 발생시키는 자기 자신을 의미한다. -->
+  
+</body>
+</html>

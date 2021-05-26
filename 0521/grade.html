@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>점수</title>
+        <meta charset="UTF-8">
+        <script>
+            function Student(name,kor,eng) {
+                this.Username = name;
+                this.Userkor = kor;
+                this.Usereng = eng;
+                this.avg;               
+            }
+            Student.prototype.userInfo = function (){
+                var str = " ";
+                str += "이름: "+this.Username+"<br>";
+                str += "국어: "+this.Userkor+"<br>";
+                str += "영어: "+this.Usereng+"<br>"; 
+                return str;    
+            }
+            Student.prototype.userAvg = function (){
+                this.avg = (this.Userkor+this.Usereng)/2;
+                return "평균 점수: "+Math.floor(this.avg);
+            }
+
+            var hong = new Student("홍길동",100,87);
+            document.write(hong.userInfo());
+            document.write(hong.userAvg());
+
+            var kim = new Student("김유신",100,80);
+            document.write(kim.userInfo());
+            document.write(kim.userAvg());
+        </script>
+    </head>
+    <body>
+        
+               
+    </body>
+</html>
