@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <style>
+            div{
+                margin: 20px;
+                border:1px solid black;
+                border-radius: 5px;/*끝을 둥글게*/
+            }
+            #blocktag ul li{
+                list-style:circle;
+                display: inline;
+            }
+            #inline {
+                margin: 10px;
+            }
+            #block img{
+                display: block;
+                margin: 10px;
+                /* id block을 찾아 하위인 img태그에 속성 부여 */
+            }
+        </style>
+    </head>
+    <body>
+        <nav id="blocktag">
+            <ul>
+                <li><a href="">애완견 종류</a></li>
+                <li><a href="">애완견 종류</a></li>
+                <li><a href="">애완견 종류</a></li>
+                <li><a href="">애완견 종류</a></li>
+            </ul>
+        </nav>
+        <div id="inline">
+            <img src="img/1.jpg" alt="">
+            <img src="img/2.jpg" alt="">
+            <img src="img/3.jpg" alt="">
+        </div>
+        <div id="block">
+            <img src="img/1.jpg" alt="">
+            <img src="img/2.jpg" alt="">
+            <img src="img/3.jpg" alt="">
+        </div>
+
+
+    </body>
+</html>

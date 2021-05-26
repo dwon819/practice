@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>표 스타일</title>
+  <style>
+    /* <col> 테이블에서 별도로 해당 열에 효과를 줄때 쓰는 태그 홀태그 */
+    table{
+        /* position: relative; */
+        border-collapse: collapse;
+        /* table-layout: fixed;
+        word-break: break-all;줄바꿈 */
+        padding: 20px;
+        caption-side: bottom;
+    }
+    
+    th{
+      background:burlywood;
+    }
+    #padding tr th,td{
+      padding: 10px;
+    }
+    
+  </style>
+</head>
+<body>
+  <table border="1">
+    <caption>2015 국민 독서실태</caption>
+    <thead id="padding">
+      <tr>
+        <th>구분</th>
+        <th>성인</th>
+        <th>학생</th>
+      </tr>
+    </thead>
+    <tbody id="padding">
+      <tr>
+        <th>독서율</th>
+        <td>65.3%</td>
+        <td>94.9%</td>
+      </tr>
+      <tr>
+        <th>연평균 독서량</th>
+        <td>9.1권</td>
+        <td>29.8권</td>
+      </tr>
+      <tr>
+        <th>공공도서관 이용률</th>
+        <td>28.2%</td>
+        <td>64.9%</td>
+      </tr>      
+    </tbody>
+  </table>
+</body>
+</html>

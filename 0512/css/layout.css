@@ -1,0 +1,124 @@
+ /*자식이 float 하면 부모에서 overflow: hidden 한다.*/
+ body{
+    
+    font-family: "막은 고딕","고딕","굴림";
+}
+header{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #069;
+    padding: 10px;
+    overflow: hidden; }
+header nav{
+    width: 60%;
+    float:right;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    margin: 15px;
+    display: inline;    
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    font-size: 2em;
+    line-height: 20px;
+}
+
+article{
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid #333;
+    padding: 5px;
+    overflow: hidden;
+}
+article section{
+    width: 30%;
+    height: 650px;
+    margin: 5px;
+    padding: 5px;
+    border: dotted black 1px;
+    float: left;
+}
+section h3{
+    background: url("../img/123.png") no-repeat;
+    background-position: left center;
+    padding:30px;
+}
+aside{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    background:green;
+}
+footer{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    background:gray;
+    text-align: center;
+}
+
+/* body{
+    width: 960px;
+    margin: 0 auto;
+    font-family: "막은 고딕","고딕","굴림";
+}
+header{
+    height: 50px;
+    background-color: #069;
+    text-align: center;
+}
+nav ul{
+    padding: 20px;
+    list-style-type: none;
+}
+nav ul li{
+    margin: 10px;
+    padding: 10px;
+    display: inline;
+}
+
+nav ul li a{
+    margin: 10px;
+    padding: 10px;
+    display: inline;
+    color:white;
+}
+article{
+    border: solid black 3px;
+    overflow: hidden;
+}
+article section{
+    width: 30%;
+    height: 650px;
+    margin: 5px;
+    padding: 5px;
+    border: dotted black 1px;
+    float: left;
+}
+section{
+    width: 30%;
+    height: 650px;
+    float: left;
+    border: dotted 1px black;
+}
+section h3{
+    background: url("../img/123.png") no-repeat;
+    background-position: left center;
+    padding:30px;
+}
+aside{
+    padding: 10px;
+    background:green;
+}
+footer{
+    padding: 10px;
+    background:gray;
+    text-align: center;
+} */

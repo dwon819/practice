@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <style>
+            #wrap{
+                position: relative;/*부모에 position: relative 필수 */
+                width: 300px;
+                height: 300px;
+                border: solid 1px black;
+            }
+            .box{
+                position: absolute;/*자식에 position: absolute 필수 */
+                width: 50px;
+                height: 50px;
+                background: burlywood;
+            }
+            #crd1{top: 0;left: 0;}
+            #crd2{top: 0;right: 0;}
+            #crd3{top: 100px;left: 100px;}
+            #crd4{bottom: 0px;left: 0;}
+            #crd5{bottom: 0px;right: 0;}
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+            <div class="box" id="crd1">박스1</div>
+            <div class="box" id="crd2">박스2</div>
+            <div class="box" id="crd3">박스3</div>
+            <div class="box" id="crd4">박스4</div>
+            <div class="box" id="crd5">박스5</div>
+        </div>
+    </body>
+</html>
+<!-- position 속성과 같이 사용
+    top left bottom right -->

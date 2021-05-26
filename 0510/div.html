@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title></title>
+     <style>
+         div{
+            width: 150px; 
+            height: 150px;
+            border:1px solid black;
+            white-space: pre-line;
+            /* white-space: pre; 칸무시 적은 그대로*/
+            /* white-space: pre-wrap; 공백인정 줄바꿈*/
+            /* white-space: pre-line; 줄바꿈*/
+        }
+        p{
+            letter-spacing: 10px;
+            /* 글자간의 사이 */
+        }
+        .c1{
+            color:brown;
+        }
+        .c2{
+            color: cadetblue;
+        }
+        .c3{
+            color: darkblue;
+        }
+        .c4{
+            font-size: 30px;
+        }
+        #p1{
+            font-size: 10px;
+        }
+        #p2{
+            font-size: 20px;
+        }
+        #p3{
+            font-size: 30px;
+        }
+        #p4{
+            color: red;
+        }
+        /* id는 여러가지 속성을 넣을수 없음
+        class는 여러가지 속성을 넣을수 있음 */
+        h1,h2{
+            text-align: center;
+        }
+        /* 그룹선택자 이름,이름 */
+        .center{
+            text-align: center;
+            font-weight: bold;
+        }
+        .block {
+            word-wrap: break-word;      /* IE 5.5-7 */
+                /* current browsers */
+}
+     </style>
+ </head>
+ <body>
+    <h1 class="center">안녕하세요</h1>
+    <h2>안녕하세요</h2>
+    <div class="block">hello         hasddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</div>
+    <p class="c1 c4 center">안녕하세요</p>
+    <p class="c2 c4">안녕하세요</p> 
+    <p class="c3 c4">안녕하세요</p>
+    <p id="p1 p4">안녕하세요</p>  
+    <p id="p2 p4">안녕하세요</p>  
+    <p id="p3 p4">안녕하세요</p>  
+     
+</body>
+
+</html>

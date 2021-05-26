@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--박스모델    
+    블록태그 내용과 상관없이 한줄자체를 차지
+    인라인태그 내용의 길이만큼 자리 차지
+    인라인 블록 태그 -->
+<html>
+    <head>
+        <title>BlockTag</title>
+        <meta charset="UTF-8">
+        <style>
+            div{
+                background-color: teal;
+                float: left;
+
+                width: 200px;
+                height: 200px;
+                border: 1px solid black;
+                text-align: center;
+            }
+            span{
+                background-color: rebeccapurple;
+                width: 200px;
+                height: 200px;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div>12345</div> <!--블록레벨태그 <p>,<h1>,<ul>,<form>,<hr>,<table> -->
+        <div>678910</div>
+        <span>12345</span><!--인라인레벨 태그 <img>,<input>,<label>,<button>
+                              인라인태그는 크기가 안바뀜-->
+        <span>678910</span>
+    </body>
+</html>

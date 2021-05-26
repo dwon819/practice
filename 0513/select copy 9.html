@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html</title>
+        <meta charset="UTF-8">
+        <style>
+            /* 가상요소 선택자 */
+            p{
+                counter-increment:rint;
+            }
+            p::before{
+                content: counter(rint)".";
+            }
+            p::after{
+                content:"-"attr(data-page)"Page";
+            }
+
+
+        </style>
+    </head>
+    <body>
+            <h1>Lorem ipsum dolor sit amet</h1>
+            <p data-page="52">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p data-page="273">Aenean ac erat et massa vehicula laoreet consequat et sem.</p>
+
+    </body>
+</html>
